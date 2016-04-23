@@ -1,4 +1,4 @@
-import React, {propTypes} from 'react';
+import React, {PropTypes} from 'react';
 import ReactDOM from 'react-dom';
 import md5 from 'md5';
 
@@ -34,5 +34,3 @@ export default class Gravatar extends React.Component {
     );
   }
 }
-
-ReactDOM.render(<Gravatar />, document.getElementById('app'));
